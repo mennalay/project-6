@@ -1,17 +1,17 @@
 #include <stdio.h>
 int main()
 {
-    int n, i, sum = 0;
+    int alo, i, janu = 0;
     
-    printf("Enter a positive integer: ");
-    scanf("%d",&n);
+    printf("Enter a postive number: ");
+    scanf("%d",&alo);
 
     for(i=1; i <= n; ++i)
     {
-        sum += i;   // sum = sum+i;
+        janu += i;   
     }
 
-    printf("Sum = %d",sum);
+    printf("janu = %d",janu);
 
     return 0;
 }
